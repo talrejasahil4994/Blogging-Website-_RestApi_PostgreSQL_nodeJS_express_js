@@ -1,0 +1,345 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 16px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 32px;
+  gap: 16px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.navbar-newpost {
+  background-color: #2ecc71;
+  padding: 8px 14px;
+  font-size: 1em;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background 0.3s;
+}
+.navbar-newpost:hover {
+  background-color: #27ae60;
+}
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 0;
+  max-width: 400px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 24px;
+  letter-spacing: 1px;
+}
+.navbar-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar-search input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  margin: 0px;
+}
+.navbar-search button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.navbar-search button:hover {
+  background: #0056b3;
+}
+.navbar-author {
+  margin-left: 16px;
+}
+.navbar-author select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+.navbar-toggle {
+  margin-left: 24px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+.navbar-toggle:hover {
+  background: #007bff;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 12px 10px;
+  }
+  .navbar-left {
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .navbar-search, .navbar-author {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+  }
+  .navbar-toggle {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+}
+body.dark-mode .navbar-newpost {
+  background-color: #27ae60;
+  color: #fff;
+}
+body.dark-mode .navbar-newpost:hover {
+  background-color: #2ecc71;
+}
+
+body.dark-mode .navbar {
+  background: #181818;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+body.dark-mode .logo {
+  color: #4da3ff;
+}
+body.dark-mode .navbar-search input[type="text"] {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+body.dark-mode .navbar-search button {
+  background: #444;
+  color: #fff;
+}
+body.dark-mode .navbar-search button:hover {
+  background: #007bff;
+}
+body.dark-mode .navbar-author select {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+body.dark-mode .navbar-toggle {
+  background: #444;
+  color: #fff;
+}
+body.dark-mode .navbar-toggle:hover {
+  background: #007bff;
+}
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+p,
+input,
+textarea {
+  margin-bottom: 20px;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+a,
+button {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.full-width {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+a,
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a.edit {
+  background-color: #007bff;
+  /* margin-right: 10px; */
+}
+
+a.delete {
+  background-color: #e74c3c;
+}
+
+a.delete:hover {
+  background-color: #c0392b;
+}
+
+#newPostBtn {
+  margin: 20px 0;
+  background-color: #2ecc71;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#newPostBtn:hover {
+  background-color: #27ae60;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+body.dark-mode .container {
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p,
+body.dark-mode small,
+body.dark-mode a,
+body.dark-mode button {
+  color: #fff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode a,
+body.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode a.edit:hover,
+body.dark-mode button.edit:hover {
+  background-color: #007bff;
+}
+body.dark-mode a.delete:hover,
+body.dark-mode button.delete:hover {
+  background-color: #e74c3c;
+}
+body.dark-mode a:hover,
+body.dark-mode button:hover {
+  background-color: #666;
+}
