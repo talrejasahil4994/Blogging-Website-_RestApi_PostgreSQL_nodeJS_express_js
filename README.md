@@ -4,7 +4,7 @@ A full-stack blog application with a RESTful API backend (Node.js/Express/Postgr
 
 #Preview
 
-[Download Demo Video](./demo.mp4)
+[Download Demo Video](./demo.gif)
 
 
 ## Features
@@ -71,4 +71,5 @@ views/
 
 ## License
 ISC
+
 
