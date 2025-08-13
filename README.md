@@ -4,7 +4,7 @@ A full-stack blog application with a RESTful API backend (Node.js/Express/Postgr
 
 #Preview
 
-![Blogger Website Demo](./demo.gif)
+<img src="./demo.gif" style="max-width:100%; height:auto;" />
 
 [Download Demo Video](<./Untitled video - Made with Clipchamp.mp4>)
 
@@ -73,6 +73,7 @@ views/
 
 ## License
 ISC
+
 
 
 
