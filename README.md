@@ -4,8 +4,9 @@ A full-stack blog application with a RESTful API backend (Node.js/Express/Postgr
 
 #Preview
 
-[Download Demo Video](./demo.gif)
+![Blogger Website Demo](./demo.gif)
 
+[Download Demo Video](./demo.mp4)
 
 ## Features
 - RESTful API for blog posts (CRUD)
@@ -71,5 +72,6 @@ views/
 
 ## License
 ISC
+
 
 
