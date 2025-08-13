@@ -2,6 +2,11 @@
 
 A full-stack blog application with a RESTful API backend (Node.js/Express/PostgreSQL) and a frontend rendered with EJS. Users can create, edit, delete, and search blog posts.
 
+#Preview
+
+[Download Demo Video](./demo.mp4)
+
+
 ## Features
 - RESTful API for blog posts (CRUD)
 - PostgreSQL database integration
@@ -66,3 +71,4 @@ views/
 
 ## License
 ISC
+
