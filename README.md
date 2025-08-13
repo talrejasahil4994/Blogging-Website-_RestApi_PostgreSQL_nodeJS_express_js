@@ -1,4 +1,4 @@
-# Blog API Project
+# Blogging Website
 
 A full-stack blog application with a RESTful API backend (Node.js/Express/PostgreSQL) and a frontend rendered with EJS. Users can create, edit, delete, and search blog posts.
 
@@ -73,6 +73,7 @@ views/
 
 ## License
 ISC
+
 
 
 
